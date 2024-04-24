@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('imagenes/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    padding: 50px;
+    width: 400px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    background-color: turquoise;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(13, 92, 84);
+    margin-bottom: 20px;
+}
+
+label,
+p {
+    font-size: 18px;
+    color: rgb(109, 18, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: mediumorchid;
+    outline: none;
+    color: rgb(5, 58, 58);
+    font-size: 17px;
+}

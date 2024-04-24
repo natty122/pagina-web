@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: purple;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.productos h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.productos .precio {
+    font-size: 16px;
+    color: blue;
+}
+
+.productos label {
+    display: block;
+    margin-top: 10px;
+}
+
+.productos input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid turquoise;
+    border-radius: 3px;
+    text-align: right;
+} 
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.productos {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
